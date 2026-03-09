@@ -4,16 +4,17 @@ setup = function() {
   textSize(15);
   fill(15, 0, 255);
 
-  var x = 50;
+  
 
-  var number = x + 50
+ // var number = x + 50
 
-
+var x = 0;
 while (x < 400) {
-   text(number + x, x, 10);
-   x += 50;
+   text(x, x, 10);
+   x += 55;
 }
 
+/*
   // a handy dandy ruler across the top
   var x = 0;
   text(x, x, 20); 
@@ -24,5 +25,6 @@ while (x < 400) {
   text(x+250, x+250, 20);
   text(x+300, x+300, 20);
   text(x+350, x+350, 20);
+  */
 };
 
